@@ -1,0 +1,106 @@
+/*CSS for all navigation and links*/
+
+/****************MAIN NAVIGATION******************/
+
+
+nav ul{
+list-style-type: none;}
+
+nav li {display: inline;}
+
+nav li a{
+background-color: black;
+color: #8E7158;
+text-decoration: none;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+-webkit-border-top-left-radius: 10px; /*(Safari <5, Chrome <10.5, Android <2.2, iOS < 4)*/
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;/*(Firefox <4)*/
+-moz-border-radius-topright: 10px;
+-webkit-box-shadow: inset 1px 1px 1px 1px #781F26;
+-moz-box-shadow: inset 1px 1px 1px 1px #781F26;
+box-shadow: inset 1px 1px 1px 1px #781F26;
+}
+
+nav a:hover{background-color: navajowhite;
+color: #781F26;}
+nav a.current{background-color: #781F26;
+color: navajowhite;
+-webkit-box-shadow: inset 3px 3px 3px #666;
+-moz-box-shadow: inset 3px 3px 3px #666;
+box-shadow: inset 3px 3px 3px #666;
+}
+
+
+
+/**************************ASIDE AND LOCAL NAVIGATION***********************/
+
+aside ul,#local-nav ul{
+list-style-type: none;
+}
+
+aside a {text-align: right;}
+
+
+
+aside li a,#local-nav li a{
+background-color: black;
+text-decoration: none;
+color: #8E7158;
+}
+
+aside a, #local-nav a{ display: block;}
+aside a:hover, #local-nav a:hover{background-color: navajowhite;
+color: #781F26; 
+}
+
+#local-nav a.current{background-color: #781F26;
+color: navajowhite;
+-webkit-box-shadow: inset 3px 3px 3px #666;
+-moz-box-shadow: inset 3px 3px 3px #666;
+box-shadow: inset 3px 3px 3px #666;
+}
+
+
+/*********************LINKS ON HOMEPAGE PARAGRAPHS**********************/
+ .text_link a:link{color: #8E7158;
+text-decoration: none;
+}
+
+ .text_link a:visited{color: #8E7158;
+text-decoration: none;
+}
+
+.text_link a:hover{background-color: navajowhite;
+color: #781F26;
+text-decoration: none;
+}
+
+
+.p-style1 li{list-style: none;
+}
+
+.p-style1 li a{text-decoration: none;
+}
+
+.p-style1 a:link{color: #8E7158;}
+
+.p-style1 a:visited{color: #8E7158;}
+
+.p-style1 a:hover{color: #781F26;
+text-decoration: underline;
+}
+
+#footright, #footcenter, #foot{font-size: small;}
+
+#footright a:link, #foot a:link{color:  #8E7158;} 
+
+#footright a:visited, #foot a:visited{color: #8E7158;}
+
+#footright a:hover, #foot a:hover{color: navajowhite;}
+
+#footright a:active, #foot a:active{color: #8E7158;
+background-color: black;}
+
+#footright a, #foot a{text-decoration: none;}

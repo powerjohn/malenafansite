@@ -1,0 +1,47 @@
+/*basic css*/
+
+
+body{
+background-color: black;
+font-family: Georgia, Times New Roman, serif;
+font-style: normal;
+color: navajowhite;
+}
+
+h1{
+color: navajowhite;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;} /*to overcome IE not recognizing new div elements*/
+
+#main-content{
+background-color: #781F26;}
+
+.p-style1{text-align: left;
+background-color: black;
+color: navajowhite;
+}
+
+.boldtext{
+font-weight: bold;  /**used in index.html and news.html**/
+}
+
+.review_text{
+font-size: 75%;     /******used in review.html********/
+}
+
+.quote{
+font-style: italic;    /******used in review.html********/
+}
+
+.image_title{
+background-color: #781F26;    /***on image pages*******/
+}
+
+.breadcrumbs{
+font-size: 60%;
+}
+
+footer{
+background-color: #781F26;
+color: navajowhite;}

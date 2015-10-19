@@ -1,0 +1,165 @@
+/*css for all layout*/
+
+
+body{
+margin: 0px;
+border: 0px;
+padding: 0px;}
+
+#wrapper{
+padding:2%;
+}
+/*********header images*************/
+
+#img1{float: left;
+width: 20%;
+}
+
+#img2{float: left;
+width: 60%;
+}
+
+#img3{float: right;
+width: 20%;
+}
+
+/*******************main content**********************/
+
+#main-content{float: left;
+width: 55%;
+margin-top: -12%;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 5%;
+}
+
+.p-style1{
+margin-right: 10%;
+padding:2%;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+-webkit-border-top-left-radius: 10px; /*(Safari <5, Chrome <10.5, Android <2.2, iOS < 4)*/
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;/*(Firefox <4)*/
+-moz-border-radius-topright: 10px;
+}
+
+.description{          /*used for text in the paragraphs in gallery.html and film.html*/
+float: left;
+width:65%;
+}
+
+.cc_description{     /*used for text in paragraphs in cast-crew.html*/
+float: left;
+width:79.5%;
+}
+
+.merch_description{     /*used for text in paragraphs in merchandise.html*/
+float: left;
+width:77%;
+padding-right: 1%;
+}
+
+
+
+.image_in_paragraph{      /********used for images in cast-crew sub pages***********/
+float: right;
+width: 50%;
+padding: 1%;
+}
+
+.review_text{     /**********used in review.html*******************/
+clear:both;
+}
+
+
+
+/***********site map side images************/
+
+#imgleft{float: left;
+width: 20%;}
+
+#imgright{float: right;
+width: 20%;}
+
+
+/*******************navigation structure and layout********/
+#nav_horizontal{
+clear: both;
+padding:0px;
+padding: 1%;
+padding-bottom: 1.1%;
+float: left;
+width: 60%;
+margin-top: -15.5%;
+margin-left:18.5%;
+}
+
+nav ul{margin: 0;
+padding: 0;
+}
+
+nav li {margin-left: 2.9%;}
+
+nav li a{
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 0px;
+margin-left: 10px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 16px;
+padding-left: 8px;
+}
+
+/**************************ASIDE AND LOCAL NAVIGATION***********************/
+
+#local-nav{clear:both;
+float: left;
+width: 20%;
+}
+
+aside{float: right;
+width: 20%;
+}
+
+aside ul,#local-nav ul{
+margin: 0;
+padding: 0;}
+
+aside li, #local-nav li{
+margin-top: 10px;
+margin-right: 0px;
+margin-bottom: 10px;
+margin-left: 0px;
+padding: 0px;}
+
+aside li a,#local-nav li a{
+padding: 2%;}
+
+/************layout in footer*************/
+
+footer{clear: both;
+float: left;
+width: 100%;
+padding: 0.02px;
+border-top: 1px solid navajowhite;
+text-align: center;
+}
+
+#footcenter {float: left;
+width: 50%;
+padding-bottom: 1%;
+}
+
+#foot{float: left;
+width: 25%;
+padding-bottom: 1%;
+}
+
+#footright{float: right;
+width: 25%;
+padding-bottom: 1%;
+}
